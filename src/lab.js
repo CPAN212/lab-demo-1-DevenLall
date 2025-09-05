@@ -3,12 +3,8 @@
 // Input: [1, 2, 3, 4]
 // Output: [4, 3, 2, 1]
 function reverseArray(arr) {
-  const num = [1, 2, 3, 4];
-  const reverse = [];
-  for(let i = num.length -1; i >= 0; i--){
-    reverse.push(num[i])
-  }
-  return console.log(reverse);
+  arr.reverse();
+  console.log(arr)
 }
 
 // Write a function that removes duplicate numbers from an array and returns a new array with only unique values.
@@ -55,5 +51,3 @@ module.exports = {
   sortArray,
   asyncGreet,
 };
-
-reverseArray()
